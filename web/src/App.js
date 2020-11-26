@@ -5,9 +5,13 @@ import './App.css';
 import NavBar from './components/layout/NavBar';
 import Dashboard from './components/layout/Dashboard';
 
+import PokebollBg from './img/pokeboll-bg.png';
+
 function App() {
   return (
-    <div className="App" >
+    <div className="App" style={{
+      background: `url(${PokebollBg})`,
+    }}>
       <NavBar/>
       <div className="container">
         <Dashboard/>

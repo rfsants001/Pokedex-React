@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styled from 'styled-components';
 
 
-export default class NavBar extends Component {
-    render() {
+function NavBar() {
         return (
             <div>
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -11,5 +10,6 @@ export default class NavBar extends Component {
                 </nav>
             </div>
         )
-    }
 }
+
+export default NavBar;
